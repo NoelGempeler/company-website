@@ -11,19 +11,31 @@ const About = () => {
       }}
     >
       <div>
-        {/*         <img
-          style={{ width: "200px" }}
+        <img
+          style={{ width: "500px" }}
           src={bild}
           className="bild"
           alt="Norway"
-        ></img> */}
-        BILD
+        ></img>
       </div>
-      <div>
-        <div>TEXT</div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div className="Text_about">
+        <div
+          style={{
+            fontSize: "35px",
+            marginBottom: "15px",
+            fontFamily: "Oswald, sans-serif",
+          }}
+        >
+          Über mich
+        </div>
+        <div style={{ fontSize: "25px", marginBottom: "10px" }}>
+          Hallo, wir sind eine Firma aus der Zentralschweiz.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+          facilis quis perferendis, praesentium eaque minima optio aliquid iure
+          architecto ipsum?
+        </div>
       </div>
     </div>
   );
