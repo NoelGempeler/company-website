@@ -5,7 +5,7 @@ import bild from "../images/stefan-stefancik-5p_7M5MP2Iw-unsplash.jpg";
 const About = () => {
   return (
     <div
-      className="image"
+      className="image "
       style={{
         display: "flex",
       }}
@@ -14,7 +14,7 @@ const About = () => {
         <img
           style={{ width: "500px" }}
           src={bild}
-          className="bild"
+          className="bild shadow-2xl"
           alt="Norway"
         ></img>
       </div>
