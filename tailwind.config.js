@@ -1,7 +1,10 @@
+// tailwind.config.js
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "renovering-rot": "#e65f78 ",
+      },
+    },
   },
-  variants: {},
-  plugins: [],
-}
+};

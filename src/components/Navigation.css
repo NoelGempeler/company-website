@@ -23,6 +23,7 @@
 
 .hover div:hover {
   border-bottom: 1px solid;
+  border-color: #e65f78;
 }
 .hover div {
   line-height: 25px;

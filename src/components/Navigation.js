@@ -10,9 +10,9 @@ const Navigation = () => {
           className="hover"
           style={{ display: "flex", marginRight: "30px", marginRight: "70px" }}
         >
-          <div className="margin">About</div>
-          <div className="margin">What we do</div>
-          <div>Contact</div>
+          <div className="margin cursor-pointer">About</div>
+          <div className="margin cursor-pointer">What we do</div>
+          <div className="cursor-pointer">Contact</div>
         </div>
       </div>
     </div>
