@@ -6,10 +6,7 @@ const Navigation = () => {
     <div className="navigation">
       <div className="flex_2">
         <div className="renovering"> Renovering </div>
-        <div
-          className="hover"
-          style={{ display: "flex", marginRight: "30px", marginRight: "70px" }}
-        >
+        <div className="hover" style={{ display: "flex", marginRight: "70px" }}>
           <div className="margin cursor-pointer">About</div>
           <div className="margin cursor-pointer">What we do</div>
           <div className="cursor-pointer">Contact</div>
