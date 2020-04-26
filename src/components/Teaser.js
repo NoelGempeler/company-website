@@ -1,10 +1,10 @@
 import React from "react";
 import "./Teaser.css";
-import { directive } from "@babel/types";
 
-const Teaser = () => {
+const Teaser = ({ scrollHandler }) => {
   function handleClick(e) {
     e.preventDefault();
+    scrollHandler("About");
     console.log("The link was clicked.");
   }
 
@@ -19,13 +19,9 @@ const Teaser = () => {
           <div className="teaser_text teaser_text_spezial">
             Nichts ist mächtiger als eine Idee zur richtigen Zeit.
           </div>
-          <a
-            href="#"
-            onClick={handleClick}
-            className="button text-xl cursor-pointer"
-          >
+          <div onClick={handleClick} className="button text-xl cursor-pointer">
             Mehr erfahren
-          </a>
+          </div>
         </div>
       </div>
     </div>

@@ -1,12 +1,11 @@
 import React from "react";
 import "./Home.css";
-import { directive } from "@babel/types";
 import Teaser from "./Teaser";
 
-const Home = () => {
+const Home = ({ scrollHandler }) => {
   return (
     <section className="Home_screen">
-      <Teaser></Teaser>
+      <Teaser scrollHandler={scrollHandler}></Teaser>
       <div className="overlay"></div>
     </section>
   );
