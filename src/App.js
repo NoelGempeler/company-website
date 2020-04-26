@@ -19,8 +19,8 @@ function App() {
 
   const scrollTo = (id) => {
     scroller.scrollTo(id, {
-      duration: 2000,
-      delay: 0,
+      duration: 3000,
+      delay: 200,
       smooth: "easeOutQuint",
     });
   };

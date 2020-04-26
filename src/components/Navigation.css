@@ -1,26 +1,3 @@
-.flex_2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navigation {
-  top: 30px;
-  left: 0px;
-  position: fixed;
-  z-index: 100;
-  color: white;
-  width: 100%;
-  margin: 20px 20px 20px 0px;
-}
-.renovering {
-  margin-left: 60px;
-  line-height: 3px;
-  font-size: 35px;
-}
-.margin {
-  margin-right: 70px;
-}
-
 .hover div:hover {
   border-bottom: 1px solid;
   border-color: #e65f78;
