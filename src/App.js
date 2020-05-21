@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import Navigation from "./components/Navigation";
 import About from "./components/About";
 import { scroller } from "react-scroll";
+import Contact from "./components/Contact";
+import Dienstleistungen from "./components/Dienstleistungen";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -19,8 +21,8 @@ function App() {
 
   const scrollTo = (id) => {
     scroller.scrollTo(id, {
-      duration: 3000,
-      delay: 200,
+      duration: 2500,
+      delay: 150,
       smooth: "easeOutQuint",
     });
   };
@@ -31,8 +33,12 @@ function App() {
         <div style={{ animation: "fadeIn 0.5s" }}>
           <Navigation></Navigation>
           <Home scrollHandler={scrollTo}></Home>
+          <Dienstleistungen></Dienstleistungen>
           <div id="About">
             <About></About>
+          </div>
+          <div id="Contact">
+            <Contact></Contact>
           </div>
         </div>
       )}

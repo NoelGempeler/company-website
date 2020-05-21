@@ -3,11 +3,11 @@ import bild from "../images/stefan-stefancik-5p_7M5MP2Iw-unsplash.jpg";
 
 const About = () => {
   return (
-    <div className="flex">
+    <div style={{ backgroundColor: "#F8F9FA" }} className="flex p-8">
       <div className="w-1/2">
-        <img src={bild} className="shadow-2xl " alt="Norway"></img>
+        <img src={bild} className=" p-24 " alt="Norway"></img>
       </div>
-      <div className="p-16 w-1/2">
+      <div className="p-24 mt-8 w-1/2">
         <span className="text-4xl font-bold mr-1 ">Über</span>{" "}
         <span className="text-4xl ">mich</span>
         <div className="text-2xl mb-2">

@@ -4,7 +4,7 @@ import "./Teaser.css";
 const Teaser = ({ scrollHandler }) => {
   function handleClick(e) {
     e.preventDefault();
-    scrollHandler("About");
+    scrollHandler("Contact");
     console.log("The link was clicked.");
   }
 
